@@ -1,0 +1,30 @@
+{
+  "name": "airdropshunter71",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "capacitor",
+  "id": "airdropshunter71",
+  "appId": "com.airdropshunter.app",
+  "webDir": "out",
+  "buildDir": "out",
+  "sourceDir": ".",
+  "hooks": {
+    "build:before": "npm run build:mobile"
+  },
+  "cordova": {},
+  "capacitor": {
+    "hideLogs": false,
+    "bundledWebRuntime": false
+  },
+  "projects": {
+    "app": {
+      "name": "airdropshunter71",
+      "integrations": {
+        "capacitor": {}
+      },
+      "type": "capacitor",
+      "root": ""
+    }
+  }
+}
